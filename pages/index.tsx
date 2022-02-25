@@ -44,6 +44,7 @@ const Home: NextPage = () => {
               <div>
                 <span className='c-number'>5</span>
                 <span className='c-key'>{`"coding"`}</span>: [
+                  
                 <div className=''>
                   <div>
                     <span className='c-number'>6</span>
