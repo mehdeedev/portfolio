@@ -1,10 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { Button } from '../components';
 
-const JSON = {
-  author: "Mehdi"
-}
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +13,7 @@ const Home: NextPage = () => {
       <h1 className='text-4xl text-white text-center font-bold w-1/2 mx-auto'>
         <div className='text-left px-5'>
           <div>Hi,</div>
-          <div>I'm <span className='name'>Mehdi</span></div>
+          <div>{"I'm"} <span className='name'>Mehdi</span></div>
         </div>
       </h1>
       <div className="p-4 flex justify-center">
@@ -35,50 +31,50 @@ const Home: NextPage = () => {
             <div className=''>
               <div>
                 <span className='c-number'>2</span>
-                <span className='c-key'>"author"</span>: <span className='c-value'>"Mehdi Pouladgar"</span>,
+                <span className='c-key'>{`"author"`}</span>: <span className='c-value'>{`"Mehdi Pouladgar"`}</span>,
               </div>
               <div>
                 <span className='c-number'>3</span>
-                <span className='c-key'>"description"</span>: <span className='c-value'>"Front-End Developer"</span>,
+                <span className='c-key'>{`"description"`}</span>: <span className='c-value'>{`"Front-End Developer"`}</span>,
               </div>
               <div>
                 <span className='c-number'>4</span>
-                <span className='c-key'>"homepage"</span>: <span className='c-value'>"mehdi.dev"</span>,
+                <span className='c-key'>{`"homepage"`}</span>: <span className='c-value'>{`"mehdi.dev"`}</span>,
               </div>
               <div>
                 <span className='c-number'>5</span>
-                <span className='c-key'>"coding"</span>: [
+                <span className='c-key'>{`"coding"`}</span>: [
                 <div className=''>
                   <div>
                     <span className='c-number'>6</span>
                     <div className='array-row'>
-                      <div className='text-blue'>"JavaScript"</div>{", "}
-                      <div className='text-blue'>"React"</div>{", "}
-                      <div className='text-blue'>"TypeScript"</div>{", "}
+                      <div className='text-blue'>{`"JavaScript"`}</div>{", "}
+                      <div className='text-blue'>{`"React"`}</div>{", "}
+                      <div className='text-blue'>{`"TypeScript"`}</div>{", "}
                     </div>
                   </div>
                   <div>
                     <span className='c-number'>7</span>
                     <div className='array-row'>
-                      <div className='text-blue'>"Next"</div>{", "}
-                      <div className='text-blue'>"GraphQL"</div>{", "}
-                      <div className='text-blue'>"Redux"</div>{", "}
+                      <div className='text-blue'>{`"Next"`}</div>{", "}
+                      <div className='text-blue'>{`"GraphQL"`}</div>{", "}
+                      <div className='text-blue'>{`"Redux"`}</div>{", "}
                     </div>
                   </div>
                   <div>
                     <span className='c-number'>8</span>
                     <div className='array-row'>
-                      <div className='text-blue'>"Sass"</div>{", "}
-                      <div className='text-blue'>"Less"</div>{", "}
-                      <div className='text-blue'>"TailwindCss"</div>{", "}
+                      <div className='text-blue'>{`"Sass"`}</div>{", "}
+                      <div className='text-blue'>{`"Less"`}</div>{", "}
+                      <div className='text-blue'>{`"TailwindCss"`}</div>{", "}
                     </div>
                   </div>
                   <div>
                     <span className='c-number'>9</span>
                     <div className='array-row'>
-                      <div className='text-blue'>"Jest"</div>{", "}
-                      <div className='text-blue'>"Cypress"</div>{", "}
-                      <div className='text-blue'>"PWA"</div>
+                      <div className='text-blue'>{`"Jest"`}</div>{", "}
+                      <div className='text-blue'>{`"Cypress"`}</div>{", "}
+                      <div className='text-blue'>{`"PWA"`}</div>
                     </div>
                   </div>
                 </div>
@@ -89,23 +85,23 @@ const Home: NextPage = () => {
               </div>
               <div>
                 <span className='c-number'>17</span>
-                <span className='c-key'>"tools"</span>: [
+                <span className='c-key'>{`"tools"`}</span>: [
                 <div className=''>
                   <div>
                     <span className='c-number'>18</span>
-                    <div className='array-row text-blue'>"Git"</div>,
+                    <div className='array-row text-blue'>{`"Git"`}</div>,
                   </div>
                   <div>
                     <span className='c-number'>19</span>
-                    <div className='array-row text-blue'>"Webpack"</div>,
+                    <div className='array-row text-blue'>{`"Webpack"`}</div>,
                   </div>
                   <div>
                     <span className='c-number'>20</span>
-                    <div className='array-row text-blue'>"Jira"</div>,
+                    <div className='array-row text-blue'>{`"Jira"`}</div>,
                   </div>
                   <div>
                     <span className='c-number'>21</span>
-                    <div className='array-row text-blue'>"Trello"</div>,
+                    <div className='array-row text-blue'>{`"Trello"`}</div>,
                   </div>
                 </div>
                 <div>
