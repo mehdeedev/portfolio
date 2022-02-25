@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  @apply w-full h-screen flex items-center;
+}
+/*
+body:before {
+  content: "";
+  @apply 
+  rounded 
+  bg-white 
+  right-5 left-5 top-5
+  fixed
+}
+
+body:after {
+  content: "";
+  @apply h-5 left-0 right-0 fixed bottom-0 bg-white;
+}
+
+#__next {
+  @apply h-full
+} */
+
+.name {
+  text-shadow: 2px 2px #FF0000;
+}
+#__next {
+  @apply w-full 
+}
+.c-key {
+  @apply text-green-300 inline-block mr-1 ml-6;
+}
+.c-value {
+  @apply text-sky-300 inline-block;
+}
+.code-container-header-circle {
+  @apply rounded-full w-3 h-3 mx-1;
+}
+.c-array {
+  @apply ml-14;
+}
+.text-blue {
+  @apply text-sky-300 inline-block;
+}
+.c-number {
+  @apply text-right text-gray-500 mr-4 w-4 inline-block ml-2;
+}
+.array-row {
+  @apply inline-block ml-14;
+}
