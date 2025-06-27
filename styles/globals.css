@@ -4,8 +4,10 @@
 
 body {
   background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-  @apply w-full h-screen flex items-center;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+  background: radial-gradient(circle, #3776c1 0%, #94bbe9 100%);
+  @apply w-full flex items-center p-5;
 }
 /*
 body:before {
@@ -27,10 +29,10 @@ body:after {
 } */
 
 .name {
-  text-shadow: 2px 2px #FF0000;
+  text-shadow: 2px 2px #ff0000;
 }
 #__next {
-  @apply w-full 
+  @apply w-full;
 }
 .c-key {
   @apply text-green-300 inline-block mr-1 ml-6;
