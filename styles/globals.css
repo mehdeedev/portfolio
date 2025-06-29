@@ -1,23 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html, #__next {
+  height: 100%;
+}
 
 body {
-  background: rgb(238, 174, 202);
+  background: #131313;
+  height: 100%;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
-  background: radial-gradient(circle, #3776c1 0%, #94bbe9 100%);
-  @apply w-full flex items-center p-5;
+  position: relative;
+  color: rgb(222, 222, 222);
+  @apply w-full;
 }
+
+
+.side {
+  background-image: url("../public/bg.png");
+  background-repeat: repeat-y;
+  background-size: contain;
+  width: 50px;
+  min-height: 100%;
+  border-right: 1px solid #222;
+  z-index: -1;
+  opacity: 0.6;
+
+}
+
 /*
-body:before {
-  content: "";
-  @apply 
-  rounded 
-  bg-white 
-  right-5 left-5 top-5
-  fixed
-}
+
 
 body:after {
   content: "";

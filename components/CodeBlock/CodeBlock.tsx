@@ -24,7 +24,7 @@ function CodeBlock() {
             <div>
               [
               {value.map((item, index) => (
-                <div>
+                <div key={index}>
                   {`"${item}"`}
                   {index !== value.length - 1 ? "," : ""}
                 </div>
